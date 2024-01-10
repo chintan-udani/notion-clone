@@ -1,0 +1,27 @@
+FOR BACKEND
+    - we will use convex for our backend and we will use clerk for our authentication
+    - GO to developers then documentation and follow quick start guide of a convex
+
+    To install convex : 
+    type:  npm install convex
+    to run it just type : npx convex dev
+    Then you will be asked to select existing project or to select new project and then after setup 
+    you will be given the link to the dashboard
+
+    --you have to keep running convex in order to keep use it
+    what we need to worry about is clerk connection
+    go to clerk.com and login
+
+    inside convex we need to create our api and functions
+
+    Now refer to convex docs to create auth with clerk and how to put issuer url from clerk to convex
+    after setup of auth.config.js and publishing changes 
+
+    install convex react library by Installing npm install @clerk/clerk-react
+
+    then we will need to connect providers of convex and clerk 
+    *remember* we need to keep running convex in our terminal 
+    so now create a new file in provider and add convex-provider.tsx file
+
+    remember- convex is our database and clerk provides auth
+    
